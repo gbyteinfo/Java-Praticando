@@ -48,15 +48,16 @@ public class LoopsForWhileDoWhile {
 		System.out.print(line+line);
 		
 		//DO WHILE
+		//
 		do {
 			System.out.printf("%sLOOP DO WHILE | %s => digitou %d | Contador crescente em => %d", line, nome, numDigitado, contDoWhile);
 			contDoWhile++;
 		}while(contDoWhile <= numDigitado );
 		
-		do {
+		do {//FAÇA
 			System.out.printf("%sLOOP DO WHILE | %s => digitou %d | Contador decrescente em => %d", line, nome, numDigitado, cont2DoWhile);
 			cont2DoWhile--;
-		}while(cont2DoWhile >= 0 );
+		}while(cont2DoWhile >= 0 );//ENQUANTO
 		
 		
 		System.out.printf("%s%sFim da Aplicação",line,line);	

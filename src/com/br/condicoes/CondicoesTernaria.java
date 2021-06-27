@@ -4,6 +4,7 @@ public class CondicoesTernaria {
 
 	public static void main(String[] args) {
 		
+		//DADOS PARA AS OPERA합ES
 		int nota = 39;
 		int faltas = 4;
 		int maxFaltas = 5;
@@ -11,6 +12,7 @@ public class CondicoesTernaria {
 		int resultadoInt;
 		String resultado;
 		
+		//OPERA합ES
 		
 		//CONDI플O IF ELSE - SEM BREAK
 		if((nota >= media) && (faltas <= maxFaltas)) {
@@ -27,11 +29,8 @@ public class CondicoesTernaria {
 		System.out.println("\n" + resultado);
 		
 		//CONDI플O TERNARIA - INCORPORANDO EM PARAMETROS
-		
 		resultadoInt = (nota >= media ? 1 : 0);
-		System.out.println("\n"+(resultadoInt == 1 ? "ternaria2 => Aprovado" : "ternaria2 => Reprovado"));
-		
-		
+		System.out.println("\n"+(resultadoInt == 1 ? "ternaria2 => Aprovado" : "ternaria2 => Reprovado"));		
 		
 		
 	}

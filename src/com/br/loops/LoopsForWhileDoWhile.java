@@ -22,6 +22,7 @@ public class LoopsForWhileDoWhile {
 		
 		
 		
+		
 		//OPERAÇÕES
 		
 		//FOR INICIALIZAÇÃO DO CONTADOR DENTRO DO ESCOPO DO FOR OU FORA

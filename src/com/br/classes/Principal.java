@@ -7,6 +7,8 @@ public class Principal {
 		String line = "\n";
 		int num = 0;
 		
+		//ADICIONANDO PONTOS AO JOGADOR
+		Jogador.pontos();
 		
 		Jogador j1 =  new Jogador(++num);//OBJETO J1 DO TIPO JOGADOR
 		Jogador j2 = new Jogador(++num);//OBJETO J2 DO TIPO JOGADOR

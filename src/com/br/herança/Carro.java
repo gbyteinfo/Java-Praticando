@@ -2,14 +2,15 @@ package com.br.herança;
 
 public class Carro {
 	
+	//DECLARANDO OS ATRIBUTOS
 	public String line = "\n";
-	
 	private String nome;
 	private Boolean ligado;
 	private Boolean destruido;
 	private int blindagem;
 	private Boolean armamento;
 	
+	//CONSTRUTOR DA CLASSE
 	public Carro(String nome) {
 		this.nome = nome;
 		this.ligado = false;
@@ -18,6 +19,7 @@ public class Carro {
 		this.armamento = false;
 	}
 	
+	//METODOS GET|SET
 	public String getNome() {
 		return this.nome;
 	}
@@ -40,6 +42,7 @@ public class Carro {
 		return this.blindagem;
 	}
 	
+	//METODOS PARA ACAO
 	public void sofreDano(int dano) {
 		this.blindagem = dano;
 		if(this.blindagem <=0) {
@@ -49,6 +52,7 @@ public class Carro {
 		}		
 	}
 	
+	//RETORNANDO/APRESENTANDO INFORMAÇÕES DO CARRO
 	public void info() {
 		System.out.printf("%s",line);
 		System.out.printf("%s",line);

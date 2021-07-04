@@ -1,7 +1,13 @@
 package com.br.herança;
 
+//SUPERCLASSE DE AVIAO
 public class Veiculo {
-	public static void main(String[] args) {
-		
-	}
+	
+		private String nome;
+		private int tipo;
+		public Veiculo(String nome, int tipo) {
+			this.nome=nome;
+			this.tipo = tipo;
+		}
+	
 }

@@ -44,6 +44,9 @@ public class Carro {
 	public int getBlindagem() {
 		return this.blindagem;
 	}
+	public void setBlindagem(int blindagem) {
+		this.blindagem = blindagem;
+	}
 	
 	//METODOS PARA ACAO
 	public void sofreDano(int dano) {

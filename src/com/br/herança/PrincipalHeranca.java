@@ -6,7 +6,8 @@ public class PrincipalHeranca {
 		Carro c1 = new Carro("Kadet");
 		c1.setLigado(true);
 		c1.info();
-
+		
+		
 		
 	}
 }

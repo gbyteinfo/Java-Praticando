@@ -54,11 +54,11 @@ public class Carro {
 	
 	//RETORNANDO/APRESENTANDO INFORMAÇÕES DO CARRO
 	public void info() {
-		System.out.printf("%s",line);
-		System.out.printf("%s",line);
-		System.out.printf("%s",line);
-		System.out.printf("%s",line);
-		System.out.printf("%s",line);
+		System.out.printf("%sCarro........: %s",line,this.nome);
+		System.out.printf("%sLigado.......: %s",line,this.ligado ? "Sim" : "Não");
+		System.out.printf("%sDestruido....: %s",line,this.destruido ? "Sim" : "Não");
+		System.out.printf("%sBlindagem....: %d",line,this.blindagem);
+		System.out.printf("%sArmamento....: %s",line,this.armamento ? "Sim" : "Não");
 	}
 	
 	

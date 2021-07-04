@@ -15,7 +15,7 @@ public class CarroCombate extends Carro{
 	
 	//SETANDO O MAX E MIN PARA O OBJETO ARMAMENTO
 	public void setQtdeArmamento(int qtdeArmamento) {
-		this.qtdeArmamento=qtdeArmamento;
+		this.qtdeArmamento+=qtdeArmamento;
 		if(this.qtdeArmamento > MAX_ARMAMENTO) {
 			this.qtdeArmamento = MAX_ARMAMENTO;
 		}
@@ -26,6 +26,19 @@ public class CarroCombate extends Carro{
 	
 	public int getQtdeArmamento() {
 		return this.qtdeArmamento;
+	}
+	
+	public void atirar() {
+		if(this.qtdeArmamento > MIN_ARMAMENTO) {
+			setQtdeArmamento(-1);
+		}else {
+			System.out.println("Sem Armamento");
+		}
+	}
+	
+	public void info() {
+		super.info();
+		System.out.printf("%sQtde.Armamento:.......: %d",line,this.qtdeArmamento);
 	}
 	
 }

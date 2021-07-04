@@ -10,9 +10,9 @@ public class Principal {
 		
 		int num = 0;
 		
-		Jogador j1 =  new Jogador(num++);//OBJETO J1 DO TIPO JOGADOR
-		Jogador j2 = new Jogador(num++);//OBJETO J2 DO TIPO JOGADOR
-		Jogador j3 = new Jogador(num++);//OBJETO J3 DO TIPO JOGADOR	
+		Jogador j1 =  new Jogador(++num);//OBJETO J1 DO TIPO JOGADOR
+		Jogador j2 = new Jogador(++num);//OBJETO J2 DO TIPO JOGADOR
+		Jogador j3 = new Jogador(++num);//OBJETO J3 DO TIPO JOGADOR	
 		//FIM DA INSTANCIAÇÃO DA CLASSE JOGADOR
 		
 		System.out.printf("%s%d",line, j1.num);

@@ -8,6 +8,7 @@ public class CarroCombate extends Carro{
 	
 	public CarroCombate(String nome, int blindagem) {
 		super(nome);//CLAMANDO CONSTRUTOR DA CLASSE PAI
+		super.setArmamento(true);
 	}
 
 }

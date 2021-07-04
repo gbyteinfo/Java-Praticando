@@ -38,6 +38,9 @@ public class Carro {
 	public Boolean getArmamento() {
 		return this.armamento;
 	}
+	public void setArmamento(Boolean armamento) {
+		this.armamento = armamento;
+	}
 	public int getBlindagem() {
 		return this.blindagem;
 	}

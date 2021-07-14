@@ -13,7 +13,7 @@ public class LoopsForWhileDoWhile {
 		
 		System.out.printf("Digite seu Nome: %s", line);
 		String nome = scan.nextLine();
-		
+
 		System.out.printf("Pressione o numero de Lopps e de enter: %s", line);
 		int numDigitado = scan.nextInt();
 		

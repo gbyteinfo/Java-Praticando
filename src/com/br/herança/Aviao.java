@@ -1,5 +1,7 @@
 package com.br.herança;
 
+
+
 //EXTENDENDO DA CLASSE VEICULO
 public class Aviao extends Veiculo{
 	
@@ -13,6 +15,7 @@ public class Aviao extends Veiculo{
 	}
 	public void info() {
 		super.info();
+
 		System.out.printf("Categoria: %s%s ", this.categoria, line);
 	}
 }

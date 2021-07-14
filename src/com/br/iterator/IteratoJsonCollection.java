@@ -2,8 +2,9 @@ package com.br.iterator;
 
 import java.util.Scanner;
 
-import com.br.org.JSONException;
-import com.br.org.JSONObject;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 
 
 public class IteratoJsonCollection {

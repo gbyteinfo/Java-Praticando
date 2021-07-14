@@ -2,21 +2,24 @@ package com.br.jsoncriando;
 
 import java.io.FileWriter;
 import java.util.logging.Level;
-
-import com.br.org.JSONArray;
-import com.br.org.JSONObject;
-
+import java.util.logging.Logger;
 import com.sun.tools.javac.Main;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+
 
 public class CriandoJson {
 		
 	//JSON COMPOSTO DE OBJETOS, QUE POR SUA VEZ É UM CONJUNTO DE CHAVE E VALOR
 	public static void main(String[] args) {
+		
 		String line = "\n";
 		
 		JSONObject objetoJson = new JSONObject(); //CRIANDO 1° OBJETO
 		objetoJson.put("nome", "guilherme");
-		objetoJson.put("senha", 252525);
+		objetoJson.put("senha", 102525);
 		objetoJson.put("status", true);
 		System.out.printf("Usuario 1 => %s%s", objetoJson.toString(), line);
 		
@@ -41,8 +44,8 @@ public class CriandoJson {
 		try(FileWriter arquivoJson = new FileWriter("usuarios.json")){ //LOCAL ARQUIVO .JSON
 			arquivoJson.write(objetosJsonArray.toString()); //LENDO E ADICIONANDO O ARRAY AO ARQUIVO
 			arquivoJson.flush();
-		}catch (Exception e) {
-			java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, e) ;
+		}catch (Exception ex) {
+			Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex) ;
 		}
 	}
 	

@@ -8,8 +8,6 @@ import com.sun.tools.javac.Main;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-
-
 public class CriandoJson {
 		
 	//JSON COMPOSTO DE OBJETOS, QUE POR SUA VEZ É UM CONJUNTO DE CHAVE E VALOR

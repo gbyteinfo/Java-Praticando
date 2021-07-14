@@ -38,3 +38,6 @@ public class Main {
 	}
 	/* FIM METODO PARA CONVERTER E MOSTRAR A LISTA */
 }
+
+//estudo - BLSoft Simplesmente Java - youtube
+//https://www.youtube.com/watch?v=6fCNWNc8rcI&list=PLt2CbMyJxu8iWelL5ZsosimrLZRwxCK7a&index=9

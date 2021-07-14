@@ -44,8 +44,6 @@ public class CriandoJson {
 		}catch (Exception e) {
 			java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, e) ;
 		}
-		
-		
 	}
 	
 }
